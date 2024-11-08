@@ -7,7 +7,7 @@
       ansible.builtin.ping:
     - name: Display something
       ansible.builtin.debug:
-        msg: Hi {{ web_package }}
+        msg: Hi {{ web_package }} something
     - name: Display facts
       ansible.builtin.debug:
         var: ansible_facts['nodename']
